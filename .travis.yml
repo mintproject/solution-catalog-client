@@ -1,0 +1,14 @@
+language: python
+python:
+- '3.5'
+- '3.7'
+install: pip install -r requirements.txt
+script: nosetests
+deploy:
+  provider: pypi
+  user: "__token__"
+  password:
+    secure: Sg/BFbnNi0OiWF07Ci/pZdwPYonCokFt4yrOTKNpKH4LPoixC6HoRsDLy2ltlpJF2Tf340+No6DbcWznjh/rfNt+b3dRGTWWMiLznPqNiYUogMMxoFuOhKz17nrVGHQmaVN4rJI30zhsAHGdUX1i4/6zWQTcSLpTH6V2rX9HxWcrDJvVzAgQ26x1DPg+jDLSj/sAhyDW/t8bR8+AHMl+yYu8gnF3mb8DkbbYTFwgubdaGytR8vqCkwlagsLmxkqXX/pUQqmK/UQHy7bgH4dXq2gfFtGCqZesE2bnCpayJQcMWiiby62wN4mxwIADxtLh1+qx/cfLZDyPKF0loTazPdfSKX2ypEKZipvyRSAM2VlYenGSQKX1gi2l27mcFL7e4KH27fAjrPAmoX8lxQ2ni1IAtHC2ZAhpAX7LVWKERUE9+MoPBp3GqvzyfyenNaPBHMM9Ji2CdfwkIYCatTIdeIwcrro9ywRb8HQYkFhsY+0+4z8IQz5zV0ziVgXIzs3V0wE2amokvdA/dWJ6B5RwUFrzB+3sNfDUnrKTpGBqMxuy7InFizv0YyGEGH+1/JwhoWfejBwRsb9JRy1BOlpqTTjgMDzaGEHzzdVv5PYEIivTWPIn6GZEj6hBDzY4hoMu+w0+bzjrZtHNfqQY20vhqbM3EpuiGIzLJep5CvzjRPc=
+  on:
+    tags: true
+  skip_existing: true
