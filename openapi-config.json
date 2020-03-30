@@ -1,0 +1,7 @@
+{
+    "packageName": "solutioncatalog",
+    "projectName": "solutioncatalog-api",
+    "modelPropertyNaming": "camelCase",
+    "packageVersion": "0.0.1",
+    "packageUrl": "https://pypi.org/project/solutioncatalog-api/" 
+}
