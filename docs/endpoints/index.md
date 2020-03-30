@@ -75,14 +75,14 @@ All URIs are relative to *https://solution.mint.isi.edu/v1.3.0*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*ResultsApi* | [**results_scenario_id_subgoal_id_thread_id_get**](docs/endpoints/endpoints/ResultsApi.md#results_scenario_id_subgoal_id_thread_id_get) | **GET** /results/{scenario_id}/{subgoal_id}/{thread_id} | Get the results of a thread
+*ResultsApi* | [**results_scenario_id_subgoal_id_thread_id_get**](docs/endpoints/ResultsApi.md#results_scenario_id_subgoal_id_thread_id_get) | **GET** /results/{scenario_id}/{subgoal_id}/{thread_id} | Get the results of a thread
 
 
 ## Documentation For Models
 
- - [ProblemFormulation](docs/endpoints/endpoints/ProblemFormulation.md)
- - [Scenario](docs/endpoints/endpoints/Scenario.md)
- - [Thread](docs/endpoints/endpoints/Thread.md)
+ - [ProblemFormulation](docs/endpoints/ProblemFormulation.md)
+ - [Scenario](docs/endpoints/Scenario.md)
+ - [Thread](docs/endpoints/Thread.md)
 
 
 ## Documentation For Authorization
