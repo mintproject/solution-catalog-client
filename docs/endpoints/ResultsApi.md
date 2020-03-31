@@ -1,6 +1,6 @@
 # solutioncatalog.ResultsApi
 
-All URIs are relative to *https://solution.mint.isi.edu/v0.0.1*
+All URIs are relative to *https://api.solutions.mint.isi.edu/v0.0.1*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
