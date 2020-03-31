@@ -1,6 +1,7 @@
 site_name: Solution Catalog Python client
 nav:
   - Home: index.md
+  - Examples: examples.md
   - Documentation for API Endpoints: endpoints/index.md 
 theme: 
   name: material
